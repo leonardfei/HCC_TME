@@ -1,0 +1,30 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.py[cod]
+
+# External data and generated analysis objects
+data/*
+!data/README.md
+results/
+*.qs
+*.rds
+*.RData
+*.Rdata
+*.h5ad
+*.h5Seurat
+
+# Generated tables and figures
+*.csv
+*.tsv
+*.txt
+!requirements.txt
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
